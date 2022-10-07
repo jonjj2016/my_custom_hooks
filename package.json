@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jonjj2016/my_custom_hooks/issues"
   },
-  "homepage": "https://github.com/jonjj2016/my_custom_hooks#readme"
+  "homepage": "https://github.com/jonjj2016/my_custom_hooks#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
