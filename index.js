@@ -6,7 +6,7 @@ const persistLocalStorage = (key, value) => {
   return value
 }
 
-export const useLocalStorage = (key, initValues = '') => {
+export const usePersistState = (key, initValues = '') => {
   const [state, setState] = useState(() => persistLocalStorage(key, initValues))
   useEffect(() => {
     localStorage.setItem(key, JSON.stringify(state))
