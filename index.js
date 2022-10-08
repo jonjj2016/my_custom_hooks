@@ -30,7 +30,6 @@ export const useStepForm = (steps = []) => {
       if (i >= steps.length - 1) return i
       return i + 1
     })
-    // if(currentStepIndex===steps.length-1) return
   }
   const back = () => {
     setCurrentStepIndex((i) => {
