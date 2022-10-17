@@ -22,7 +22,7 @@ export const useLogger = (value) => {
   }, [value])
 }
 
-export const useStepForm = (steps = []) => {
+export const useStep = (steps = []) => {
   const [currentStepIndex, setCurrentStepIndex] = useState(0)
 
   const next = () => {
